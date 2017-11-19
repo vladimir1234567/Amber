@@ -1,0 +1,29 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oxygen', 'Arial', sans-serif;
+  //font-family: 'Lato', sans-serif;
+}
+
+.header-top {
+  background-color: #000000;
+
+}
+.top-navbar {
+  .form-search {
+    position: relative;
+    .top-search {
+      border-radius: 0;
+      /* Style for "Rectangle" */
+      width: 210px;
+      height: 28px;
+      border: 1px solid rgba(133, 147, 159, 0.5);
+    }
+    .my-btn-s {
+      position: absolute;
+      right:17px;
+    }
+  }
+
+}
