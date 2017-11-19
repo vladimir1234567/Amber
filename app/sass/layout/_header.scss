@@ -15,14 +15,23 @@ body {
     position: relative;
     .top-search {
       border-radius: 0;
-      /* Style for "Rectangle" */
+      background: $black;
+      font-family: 'Lato', sans-serif;
+      color: #85939f;
       width: 210px;
       height: 28px;
+      padding-right: 20px;
       border: 1px solid rgba(133, 147, 159, 0.5);
     }
     .my-btn-s {
       position: absolute;
-      right:17px;
+      right: 17px;
+      background: none;
+      border: none;
+      .fa-search {
+        color: #85939f;
+      }
+
     }
   }
 
