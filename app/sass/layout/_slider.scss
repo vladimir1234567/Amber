@@ -1,0 +1,31 @@
+.slider {
+  //height: 50vh;
+  .carousel-item {
+    height: 100vh;
+    img {
+      //height: 50%;
+      width: auto;
+    }
+  }
+}
+.carousel-caption {
+  h3 {
+    width: 100%;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 72px;
+    color: #02baab;
+  }
+  p {
+    width: 100%;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 72px;
+    color: $white;
+  }
+
+  bottom: 40%;
+}
+.carousel-indicators {
+  bottom: 10%;
+}
