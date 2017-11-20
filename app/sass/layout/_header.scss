@@ -6,7 +6,7 @@ body {
   //font-family: 'Lato', sans-serif;
 }
 .container {
-  max-width: 930px;
+  //max-width: 930px;
 }
 
 .header-top {
@@ -119,42 +119,42 @@ body {
        border-top: 10px solid #fc7100;
      }
     &:nth-child(2):hover {
-      transition: 1.5s;
+      transition: 0.5s;
       background: #fc7100;
     }
     &:nth-child(3) {
       border-top: 10px solid #e51c5e;
     }
     &:nth-child(3):hover {
-      transition: 1.5s;
+      transition: 0.5s;
       background: #e51c5e;
     }
     &:nth-child(4) {
       border-top: 10px solid #ae0f8d;
     }
     &:nth-child(4):hover {
-      transition: 1.5s;
+      transition: 0.5s;
       background: #ae0f8d;
     }
     &:nth-child(5) {
       border-top: 10px solid #6d0fae;
     }
     &:nth-child(5):hover {
-      transition: 1.5s;
+      transition: 0.5s;
       background: #6d0fae;
     }
     &:nth-child(6) {
       border-top: 10px solid #33227a;
     }
     &:nth-child(6):hover {
-      transition: 1.5s;
+      transition: 0.5s;
       background: #33227a;
     }
     &:nth-child(7) {
       border-top: 10px solid #0c8fcc;
     }
     &:nth-child(7):hover {
-      transition: 1.5s;
+      transition: 0.5s;
       background: #0c8fcc;
     }
   }

@@ -1,0 +1,43 @@
+.section-title-dark {
+  position: relative;
+  color: #3b4954;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 20px;
+  padding-bottom: 30px;
+  &::after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 5px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -25px;
+    background: #eeeeee;
+  }
+}
+.section-title-light {
+  position: relative;
+  color: $white;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 20px;
+  padding-bottom: 30px;
+  &::after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 5px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -25px;
+    background: $white;
+  }
+}
+.section-descript-dark {
+  color: #3b4954;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 45px;
+}

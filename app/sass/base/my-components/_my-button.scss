@@ -1,0 +1,26 @@
+.my-btn {
+  height: 43px;
+  padding: 0 23px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 43px;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+  cursor: pointer;
+}
+.full-btn {
+  background: $green;
+  border: none;
+}
+.green-btn {
+  background: transparent;
+  border: 1px solid $green;
+  color: $green;
+}
+#carouselExampleIndicators > ol > li {
+  background: $green;
+}
+#carouselExampleIndicators > ol > li.active {
+  background: $green;
+}
