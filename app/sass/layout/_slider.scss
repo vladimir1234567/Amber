@@ -1,5 +1,5 @@
 .slider {
-  //height: 50vh;
+  position: relative;
   .carousel-item {
     height: 100vh;
     img {
@@ -26,6 +26,14 @@
 
   bottom: 40%;
 }
+.carousel-buttons {
+  position: absolute;
+  z-index: 15;
+  left: 0;
+  bottom: 50%;
+
+}
 .carousel-indicators {
   bottom: 10%;
 }
+
