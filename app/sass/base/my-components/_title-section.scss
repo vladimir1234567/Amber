@@ -5,6 +5,7 @@
   font-weight: 300;
   line-height: 20px;
   padding-bottom: 30px;
+  margin-bottom: 40px;
   &::after {
     position: absolute;
     content: '';
@@ -23,6 +24,7 @@
   font-weight: 300;
   line-height: 20px;
   padding-bottom: 30px;
+  margin-bottom: 40px;
   &::after {
     position: absolute;
     content: '';
@@ -36,6 +38,13 @@
 }
 .section-descript-dark {
   color: #3b4954;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 45px;
+}
+.section-descript-light {
+  color: #ffffff;
   font-size: 18px;
   font-weight: 300;
   line-height: 30px;
