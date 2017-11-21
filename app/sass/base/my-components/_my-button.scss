@@ -1,7 +1,6 @@
 .my-btn {
   height: 43px;
   padding: 0 23px;
-  color: #ffffff;
   font-size: 12px;
   font-weight: 700;
   line-height: 43px;
@@ -12,11 +11,17 @@
 .full-btn {
   background: $green;
   border: none;
+  color: $white;
 }
 .green-btn {
   background: transparent;
-  border: 1px solid $green;
+  border: 2px solid $green;
   color: $green;
+}
+.white-btn {
+  background: transparent;
+  border: 2px solid $white;
+  color: $white;
 }
 #carouselExampleIndicators > ol > li {
   background: $green;
