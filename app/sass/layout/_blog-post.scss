@@ -13,6 +13,19 @@
   border-top: none;
   background: none;
   padding: 0;
+; display: flex;
+  justify-content: space-between;
+  .comments {
+    display: flex;
+    align-items: center;
+    .comment-link {
+      display: block;
+      width: 21px;
+      height: 16px;
+      background: url("../img/comment.png") no-repeat;
+    }
+  }
+
 }
 
 @media (min-width: 576px){
