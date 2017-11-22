@@ -2,11 +2,7 @@
   .green-head {
     padding: 10vh 0;
     background: $green;
-    .theme-descript {
-      color: $white;
-      font-size: 24px;
-      font-weight: 300;
-      line-height: 36px;
+    .theme-title {
       margin-right: 60px;
     }
     .my-btn {
@@ -28,7 +24,6 @@
   .features-item {
     position: relative;
     z-index: 1;
-    //border: 1px solid red;
     padding-left: 90px;
     margin-bottom: 40px;
     padding-right: 45px;

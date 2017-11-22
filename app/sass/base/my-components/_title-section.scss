@@ -36,6 +36,11 @@
     background: $white;
   }
 }
+.theme-title {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+}
 .section-descript-dark {
   color: #3b4954;
   font-size: 18px;
@@ -49,4 +54,28 @@
   font-weight: 300;
   line-height: 30px;
   margin-bottom: 45px;
+}
+.section-descript {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 45px;
+}
+.light {
+  color: $white;
+}
+.dark {
+  color: $dark;
+}
+.green {
+  color: $green
+}
+.blue {
+  color: $blue;
+}
+.bg-green {
+  background-color: $green;
+}
+.pad-defoult {
+  padding: 10vh 0;
 }
