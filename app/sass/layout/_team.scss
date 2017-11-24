@@ -1,0 +1,78 @@
+.team-card {
+  border: none;
+  padding-bottom: 0;
+  .profile-wrap {
+    height: 420px;
+    //padding: 0;
+    padding-bottom: 40px;
+    border: 2px solid #eeeeee;
+
+    .profile-link {
+      display: block;
+      width: 140px;/* Style for "profile" */
+      color: #02baab;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 35px;
+      text-transform: uppercase;
+      letter-spacing: 0.9px;
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+
+}
+.foot {
+
+  height: 145px;
+  opacity: 1;
+  padding: 0;
+  .profile-name {
+    position: relative;
+    top: -30px;
+    width: 140px;
+    margin: 0 auto;
+    border: 1px solid #eeeeee;
+    background: $white;
+    padding: 5px 0;
+    margin-bottom: -10px;
+
+    .card-title {
+      color: #02baab;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 18px;
+    }
+    .card-text {
+      color: #c4c4c4;
+      font-size: 12px;
+    }
+  }
+
+  .long-card-text {
+    color: #3b4954;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 0 40px;
+  }
+}
+
+ .pictures {
+  overflow: hidden;
+  height: 200px;
+   text-align: center;
+
+
+ }
+ .profile-wrap:hover .pictures {
+   height: 320px;
+  transition: 1s;
+   margin-bottom: 25px;
+ }
+.profile-wrap:hover .foot{
+  height: 0;
+  opacity: 0;
+  padding: 0;
+  transition: 1s;
+}

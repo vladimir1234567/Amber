@@ -1,10 +1,11 @@
-
+.expiriens {
+  position: relative;
+}
 .item {
   position: relative;
   width: 215px;
   height: 215px;
   border-radius: 50%;
-  //border: 1px solid black;
   background-color: red;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -27,6 +28,18 @@
     left: 50%;
     margin-left: -50px;
   }
+
+}
+.expiriens::after {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: #ffffff;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  right: 36%;
+  top: 43%;
 }
 .progress-scale .section-descript-light {
   width: 220px;
@@ -69,8 +82,11 @@
   margin-left: -32px;
   background: url("../img/rocket.png") no-repeat;
 }
+.progress-scale .section-title {
+  padding-bottom: 0;
+}
 
-
+//http://jsfiddle.net/kaska/AvG6d/
 $step: 1; // step of % for created classes
 $loops: 100;
 $increment: (360 / $loops);

@@ -13,6 +13,9 @@
   border: none;
   color: $white;
 }
+.green-color {
+  color: $green;
+}
 .green-btn {
   background: transparent;
   border: 2px solid $green;
@@ -28,4 +31,7 @@
 }
 #carouselExampleIndicators > ol > li.active {
   background: $green;
+}
+a.inl {
+  display: inline-block;
 }
