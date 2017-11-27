@@ -1,6 +1,6 @@
 .blog-header {
   height: 300px;
-  background: url("../img/blog-head-back.jpg") 0 1 00px no-repeat;
+  background: url("../img/blog-head-back.jpg") 0px -100px no-repeat;
   background-size: cover;
   .blog-title {
     padding-top: 155px;
@@ -34,5 +34,14 @@
     &:last-child .blog-link::before {
       background: url("../img/commen.png") no-repeat;
     }
+  }
+}
+.breadcrumb {
+  background: none;
+  .breadcrumb-link {
+    color: #85939f;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
   }
 }

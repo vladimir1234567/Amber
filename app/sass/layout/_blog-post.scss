@@ -1,10 +1,13 @@
 .blog-post {
   padding: 10vh 0;
 }
+.card-deck {
+  margin-bottom: 30px;
+}
 .card {
   border: none;
-  border-bottom: 1px solid $dark;
   padding-bottom: 30px;
+  margin-bottom: 50px;
   &:last-child {
     .my-card-footer {
       .comments {
@@ -28,6 +31,7 @@
   padding: 0;
 ; display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid $gray;
   .comments {
     display: flex;
     align-items: center;
@@ -48,3 +52,25 @@
   }
 }
 
+.pagination {
+  .page-item {
+    .page-link {
+      border: none;
+      color: #02baab;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      text-transform: uppercase;
+      &:first-child {
+        color: #3b4954;
+      }
+      &:nth-child(7) {
+        color: #6d0fae;
+      }
+      /* Text style for "1, ..." */
+      //color:
+      /* Text style for "7" */
+      //color:
+    }
+  }
+}
