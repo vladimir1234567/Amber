@@ -23,7 +23,6 @@
   border-radius: 50%;
   margin-right: 10px;
 }
-
 .carousel-1 .carousel-caption h3 {
   color: #ffffff;
   font-size: 24px;
@@ -31,8 +30,6 @@
   line-height: 30px;
   margin-bottom: 30px;
 }
-
-
 .carousel-1 .carousel-caption p {
   color: #02baab;
   font-family: Lato,'Arial', sans-serif;
@@ -45,7 +42,6 @@
   .carousel-1::before {
     display: none;
   }
-
 }
 @media (max-width: 960px) {
   .carousel-caption {

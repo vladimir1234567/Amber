@@ -21,6 +21,11 @@
   border: 2px solid $green;
   color: $green;
 }
+.green-btn:hover {
+  background: $green;
+  //border: 2px solid $green;
+  color: $white;
+}
 .white-btn {
   background: transparent;
   border: 2px solid $white;
@@ -34,4 +39,7 @@
 }
 a.inl {
   display: inline-block;
+}
+.my-card .b-2 .my-btn:hover {
+  color: $white;
 }
