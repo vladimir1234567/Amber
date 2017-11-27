@@ -1,5 +1,6 @@
 .main-footer {
   background: #1f2a32;
+  padding-bottom: 50px;
 }
 .footer-title {
   margin-bottom: 50px;
@@ -9,6 +10,36 @@
   line-height: 35px;
 }
 .footer-section {
+  padding-top: 60px;
+  margin-bottom: 80px;
+  &:first-child {
+    border-top: 17px solid #7827a9;
+  }
+  &:first-child:hover {
+    background: #7827a9;
+    transition: 0.6s;
+  }
+  &:nth-child(2) {
+    border-top: 17px solid #0c8fcc;
+  }
+  &:nth-child(2):hover {
+    background: #0c8fcc;
+    transition: 0.6s;
+  }
+  &:nth-child(3) {
+    border-top: 17px solid #de1c5c;
+  }
+  &:nth-child(3):hover {
+    background: #de1c5c;
+    transition: 0.6s;
+  }
+  &:last-child {
+    border-top: 17px solid #ffae00;
+  }
+  &:last-child:hover {
+    background: #ffae00;
+    transition: 0.6s;
+  }
   .footer-list {
     li:first-child::before {
       position: absolute;
@@ -142,4 +173,20 @@
 }
 body .post-list .post-item:before {
   content: 'none';
+}
+
+.footer-bottom {
+  width: 100%;
+  .footer-copy {
+    width: 235px;
+    span {
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 24px;
+    }
+    .my-btn {
+      display: inline-block;
+    }
+  }
 }
