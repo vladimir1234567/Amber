@@ -1,6 +1,6 @@
 .blog-header {
-  height: 300px;
-  background: url("../img/blog-head-back.jpg") 0px -100px no-repeat;
+  height: 330px;
+  background: url("../img/blog-head-back.jpg") 0px 0px no-repeat;
   background-size: cover;
   .blog-title {
     padding-top: 155px;
@@ -43,5 +43,28 @@
     font-size: 12px;
     font-weight: 300;
     line-height: 20px;
+  }
+}
+
+.pagination {
+  .page-item {
+    .page-link {
+      border: none;
+      color: #02baab;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      text-transform: uppercase;
+      &:first-child {
+        color: #3b4954;
+      }
+      &:nth-child(7) {
+        color: #6d0fae;
+      }
+      /* Text style for "1, ..." */
+      //color:
+      /* Text style for "7" */
+      //color:
+    }
   }
 }

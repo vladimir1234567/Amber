@@ -52,25 +52,3 @@
   }
 }
 
-.pagination {
-  .page-item {
-    .page-link {
-      border: none;
-      color: #02baab;
-      font-size: 14px;
-      font-weight: 400;
-      line-height: 24px;
-      text-transform: uppercase;
-      &:first-child {
-        color: #3b4954;
-      }
-      &:nth-child(7) {
-        color: #6d0fae;
-      }
-      /* Text style for "1, ..." */
-      //color:
-      /* Text style for "7" */
-      //color:
-    }
-  }
-}

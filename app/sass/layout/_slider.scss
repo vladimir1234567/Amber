@@ -1,5 +1,7 @@
 .slider {
   position: relative;
+  height: 100vh;
+  overflow: hidden;
   .carousel-item {
     //height: 100vh;
     img {
@@ -39,6 +41,11 @@
 
 }
 .carousel-indicators {
-  bottom: 10%;
+  bottom: 20%;
 }
-
+.main-header .main-nav .navbar-toggler {
+  background: #666666;
+}
+.main-header .main-nav .navbar-toggler:focus {
+  outline: none;
+}
