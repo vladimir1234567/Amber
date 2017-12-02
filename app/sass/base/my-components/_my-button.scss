@@ -21,6 +21,15 @@
   border: 2px solid $green;
   color: $green;
 }
+.yellow-btn {
+  background: transparent;
+  border: 2px solid $yellow;
+  color: $yellow;
+}
+.yellow-btn:hover {
+  background: $yellow;
+  color: $white;
+}
 .green-btn:hover {
   background: $green;
   //border: 2px solid $green;
